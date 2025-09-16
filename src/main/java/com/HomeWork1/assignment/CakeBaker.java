@@ -14,6 +14,6 @@ private final Syrup syrup;
         this.syrup = syrup;
     }
     public void bakeCake(){
-        System.out.println("Bake a cake with " + frosting.getFrostingType() + " and " + syrup.getSyrupType() + "...");
+        System.out.println("Bake a cake with " + frosting.getFrostingType() + " and " + syrup.getSyrupType() + ".");
     }
 }
